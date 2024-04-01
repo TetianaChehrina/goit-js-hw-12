@@ -12,11 +12,11 @@ const loadMoreBtn = document.querySelector('.load-more-btn');
 const scrollToTopBtn = document.querySelector('.scroll-to-top');
 
 function showLoader() {
-  loader.classList.remove('.is-hidden');
+  loader.classList.remove('is-hidden');
 }
 
 function hideLoader() {
-  loader.classList.add('.is-hidden');
+  loader.classList.add('is-hidden');
 }
 
 hideLoader();
